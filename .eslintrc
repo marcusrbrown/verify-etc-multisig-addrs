@@ -1,0 +1,30 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+
+  "extends": "airbnb-base",
+
+  "parser": "babel-eslint",
+
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+
+  "rules": {
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "comma-dangle": 0,
+    "no-console": 0,
+    "max-len": ["error", 120, 2, {"ignoreComments": true}],
+    "func-names": 0,
+    "quote-props": ["error", "consistent"],
+    "no-param-reassign": 0,
+    "no-restricted-syntax": 0
+  }
+}

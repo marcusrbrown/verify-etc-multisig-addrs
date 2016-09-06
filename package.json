@@ -1,0 +1,38 @@
+{
+  "name": "verify-multisig",
+  "version": "1.0.0",
+  "description": "Verifies the signatures of addresses used in the Ethereum Classic multi-signature wallet.",
+  "main": "index.js",
+  "bin": {
+    "verify-etc-multisig-addrs": "./bin/index.js"
+  },
+  "scripts": {
+    "clean": "rimraf bin/*",
+    "build": "babel --source-maps -d bin src",
+    "postinstall": "npm run build",
+    "verify": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcus R. Brown <me@igetgam.es> (https://igetgam.es)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igetgames/verify-etc-multisig-addrs"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-1": "^6.13.0",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.14.0",
+    "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.11.6"
+  }
+}
