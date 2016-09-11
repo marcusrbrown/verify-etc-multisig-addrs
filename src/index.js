@@ -5,6 +5,7 @@ import fs from 'fs';
 import csv from 'fast-csv';
 import request from 'request';
 import kbpgp from 'kbpgp';
+import VError from 'verror';
 
 const NAME_COLUMN = 'Name';
 const URL_COLUMN = 'Pub Key URL';
@@ -14,6 +15,7 @@ const SIGNATURE_COLUMN = 'ETC Multisig Address Signature';
 const keyRing = new kbpgp.keyring.KeyRing();
 
 const transformRow = (row, next) => {
+  const name = row[NAME_COLUMN];
   const url = row[URL_COLUMN];
   request(url, (error, response, body) => {
     if (!error && response.statusCode === 200) {
@@ -24,9 +26,8 @@ const transformRow = (row, next) => {
           armored: body,
         }, (keyError, key) => {
           if (keyError) {
-            next(keyError);
+            next(new VError(keyError, `Cannot import public key for '${name}'`));
           } else {
-            const name = row[NAME_COLUMN];
             const address = row[ADDRESS_COLUMN];
             const armored = row[SIGNATURE_COLUMN];
             keyRing.add_key_manager(key);
@@ -35,7 +36,8 @@ const transformRow = (row, next) => {
         });
       }
     } else {
-      next(error || new Error(`Server responded with ${response.statusCode} at ${url}`));
+      next(error ? new VError(error, `Cannot retrieve public key for '${name}'`)
+        : new Error(`Server responded with ${response.statusCode} at ${url}`));
     }
   });
 };
@@ -47,7 +49,7 @@ const validateRow = (row, next) => {
     armored
   }, (err, literals) => {
     if (err) {
-      next(err);
+      next(new VError(err, `Cannot unbox signature from '${name}'`));
     } else if (!literals.length) {
       next(new Error(`No literals available from '${name}'`));
     } else {
