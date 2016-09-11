@@ -1,4 +1,4 @@
-Name,Pub Key ID,Pub Key URL,ETC Multisig Address,ETC Multisig Address Signature
+Name,Pub Key ID,Pub Key URL,ETC Multisig Address,ETC Multisig Address Signature,Sent from multisig address
 Marcus R. Brown (igetgames),3AC30470,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/me%40igetgam.es.pub,0x2019de7eabd1493cb69dcfbc40f5bffeda33c8f6,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
@@ -19,8 +19,8 @@ CPbeZKM4K3eE9cH0EkG6vW31nbJ4vc7NzCMbHvjCWLte8/ohMNCRmAdRAWcVm+FE
 uAKgFgxs22cWyvXL0B5b3KcB3kH3kJ9EVMrNRu6GxY/vb9XYMBVov8R9RaDIbVFt
 c8MBaVCI6tz5vZoe3+bW
 =/X8c
------END PGP SIGNATURE-----"
-Mike Boremi (miko),1141A76A,https://github.com/ethereumproject/volunteer/blob/master/Volunteer-Public-Keys/mike.boremi%40gmail.com.pub,2999ed06ee503402c5a0b57143d709cfae9ce695,"-----BEGIN PGP SIGNED MESSAGE-----
+-----END PGP SIGNATURE-----",Y
+Mike Boremi (miko),1141A76A,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/mike%40mikes.email.pub,2999ed06ee503402c5a0b57143d709cfae9ce695,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
 Signed on September 1st, 2016
@@ -42,8 +42,8 @@ Ln8XoJ9+EmtBT7Jf6szHdScaEQN3fESfxq+C50E06e5hXK82o50yjM7mtfBD/J0P
 Ys95IkGiISxVYrRuOyc0Fg9p70dsLfebBXzNkFpJ1eMOch+wutfuI/5cVhRe/fC7
 ossylyiNCWwYciKa1kvW
 =zrou
------END PGP SIGNATURE-----"
-Carlos Graterol (ChuckSRQ),2E4FBECE,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/ChuckSRQ,0x0D90CF728803CE07aF110731B5054DD81E73635a,"`-----BEGIN PGP SIGNED MESSAGE-----
+-----END PGP SIGNATURE-----",Y
+Carlos Graterol (ChuckSRQ),2E4FBECE,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/ChuckSRQ,0x0D90CF728803CE07aF110731B5054DD81E73635a,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
 ChuckSRQ Mist Address - 0x0D90CF728803CE07aF110731B5054DD81E73635a
@@ -63,8 +63,8 @@ bk4VF6uiPpw+hvevXdOoDNSFYBYmwY4TqRvofDFdKm3p+h8RRV1ohHOS9La+b4fY
 Xzf7rPU6YGRYX9BaPcWTVa0yYhdcNY///ynoPpbvYH1aMsE7LgNXQ5U0GDOpKIQZ
 r7c/ww6odu05J9Igus3X
 =MfD7
------END PGP SIGNATURE-----"
-Elaine Ou,D2264BC0,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/e%40elaineou.com.pub,0xa6bCf390AD5f8C58e5F6c2064b74068b0E496D36,"-----BEGIN PGP SIGNED MESSAGE-----
+-----END PGP SIGNATURE-----",Y
+Elaine Ou (elaine),D2264BC0,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/e%40elaineou.com.pub,0xa6bCf390AD5f8C58e5F6c2064b74068b0E496D36,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
 0xa6bCf390AD5f8C58e5F6c2064b74068b0E496D36
@@ -83,7 +83,7 @@ xb87dQp77JVquJXlz3XPneuJj2MnC/fbcn/UOJ6JU7wo5bmCZ+WiLNzWaEVO9qHZ
 bNE68lTBRKmcvhTgeH9/kkFAzgI8kkoLud32L2u0eL1OfdbT+blO3MpJYDPcbU3X
 z1kzNEKdkEh2eRBKasGR
 =S9Ih
------END PGP SIGNATURE-----"
+-----END PGP SIGNATURE-----",Y
 Seth Feibus (seth),A3227195,https://raw.githubusercontent.com/sethfork/volunteer/b6667a048513069aa690d828ae5265533b00cf88/Volunteer-Public-Keys/sethf%40tutanova.com,0x14da9262841e6A4Bf7135a04F16621126d4ECD53,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
@@ -99,8 +99,8 @@ mxSSZ5/9FySNT3I4E6DbBHSzlbiiKzmaOxBvaRkTvHPfcjEW2xTmXxytHPndapyx
 ATCjuxKWOQH7MqrmASYQKek2DgYuy7UQtplbJlbUf/yW9qVRl2qySOqoTFc3+xs5
 Ce2JyXfBpX4zExCaIRJFliFFDQva2F8INIxpa2an2UFpdh85K74Ogochwv/u8OU=
 =UzM6
------END PGP SIGNATURE-----"
-Anthony Lusardi (pyskell),EE5677BD,https://github.com/ethereumproject/volunteer/blob/master/Volunteer-Public-Keys/ajlusardi%40gmail.com.pub,0x0656e244023f19655c841d4825747fA51491adBD,"-----BEGIN PGP SIGNED MESSAGE-----
+-----END PGP SIGNATURE-----",Y
+Anthony Lusardi (pyskell),EE5677BD,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/ajlusardi%40gmail.com.pub,0x0656e244023f19655c841d4825747fA51491adBD,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
 0x0656e244023f19655c841d4825747fA51491adBD
@@ -114,8 +114,8 @@ IxtbubW4cHI0hHIR99B677TGfkUtDYTiv1/ENOyhsjdLMWa+bkvYw7Bp4J8sUQ+S
 uEQHH6hqw5VtuWRx70nGgMlNxDjnPWiBeH4CdrTCx3GuSQ9U8RKEx1Hi6/fuX1SD
 mfWTlTXsvffnnn+NGqZemCiT9RHOwf17jZ+nLbEoPvSdSYLD3cw27tLtmXkBl94=
 =zfTV
------END PGP SIGNATURE-----"
-Eric Somdahl,C2BB96EA,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/ericsomdahl%40gmail.com.pub,0xa51ebe03b85ad76b40b60e1edcf78c7b9ec19803,"-----BEGIN PGP SIGNED MESSAGE-----
+-----END PGP SIGNATURE-----",Y
+Eric Somdahl (eric.somdahl),C2BB96EA,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/ericsomdahl%40gmail.com.pub,0xa51ebe03b85ad76b40b60e1edcf78c7b9ec19803,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
 Eric address: a51ebe03b85ad76b40b60e1edcf78c7b9ec19803
@@ -135,8 +135,8 @@ Duii2AwKZ1F3rTLm22ZwRlkYGfa25L5BmkK9k4WHcyKolW5aQxjui8Tvy3KHIkmS
 cBCVM0mID+q8tyELWJSngPbYVUsjG/lJuJ87ixeYXhO+Sql6znPa9gHGzt+YvRyM
 ep9NjTeJlFAP0AGXwJ4Y
 =DwP3
------END PGP SIGNATURE-----"
-Cody Burns,6EBF95CF,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/cody.w.burns%40protonmail.com.pub,0xCe5ED529977b08f87CBc207ebC216859820461eE,"-----BEGIN PGP SIGNED MESSAGE-----
+-----END PGP SIGNATURE-----",Y
+Cody Burns (dontpanicburns),6EBF95CF,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/cody.w.burns%40protonmail.com.pub,0xCe5ED529977b08f87CBc207ebC216859820461eE,"-----BEGIN PGP SIGNED MESSAGE-----
 0xCe5ED529977b08f87CBc207ebC216859820461eE
 
 -----BEGIN PGP SIGNATURE-----
@@ -149,8 +149,8 @@ VyZfItv+/dxt4Fstsde9maUZgifxbOyuLLnfYWtPaRm6J2yyeANxk/wY0A/ZdJ7r
 cAJ+orKhMYIis9DmwkvvEIa/4mOnlOnZQY7ME9xxuQsa8B5LTM7lU9wuW3rsheNH
 IbydsJ7SOg+Lmuru95UUa9d7j4Hgv/B25dWp71S22GqAm0nRdyowuq6DzEOKP9g=
 =4anh
------END PGP SIGNATURE-----"
-eragmus,4FC99B72,https://raw.githubusercontent.com/eragmus/volunteer/0e13c25295a292b2b881507c6953e0c0e94b3da6/Volunteer-Public-Keys/eragmus%40protonmail.com.pub,0x329Ec446Dae4Fadd728E5203a14d20aaa55A6Cbc,"-----BEGIN PGP SIGNED MESSAGE-----
+-----END PGP SIGNATURE-----",Y
+eragmus (eragmus),4FC99B72,https://raw.githubusercontent.com/eragmus/volunteer/0e13c25295a292b2b881507c6953e0c0e94b3da6/Volunteer-Public-Keys/eragmus%40protonmail.com.pub,0x329Ec446Dae4Fadd728E5203a14d20aaa55A6Cbc,"-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
 0x329Ec446Dae4Fadd728E5203a14d20aaa55A6Cbc
@@ -165,5 +165,19 @@ XqmF0zYkWMryoSItWhi5dAuqjZkA4tBTD6+t4HouyX0YmmHGFfmDS7bkyFIny1lT
 WEBt7mG6UWandl5ReU3olUC7jylu7r7GjG+v6CU27yXVhUiiHcedLWOdCY5ENN/5
 aUN0326GXRtmxKRrqM+Vc1oXG4QbRYi3B7R8A6FttBt2zaU//q8PHhS9MDUzPBY=
 =ejLs
------END PGP SIGNATURE-----"
-Prophet Daniel,604B9479,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/Daniel%20Kaminski%20de%20Souza%20(Prophet%20Daniel)%20%3Cdani_kase%40yahoo.com.br%3E,0x95D80084D4Fc2CB2063B765676fb328930935e5B,-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA10x95D80084D4Fc2CB2063B765676fb328930935e5B-----BEGIN PGP SIGNATURE-----Version: GnuPG v1iQEcBAEBAgAGBQJXziRmAAoJEAUw+AZgS5R5jNsIAK/xnlXwn+Isx+ZyWqe7VyPCX+WD404CD/c8CVsvhpRIlOnNKoNSdKACO26onxIBqu7zD8L9b7QRyJ1Z5UXZvy5CehiQdb34EhOit0HVAzJ99DjHcf/rizhnOYmYvyhXx/zA82zI3MqI/ggECm/Fx3NUH+nPO+tWf2ZXsAlTOYUU4pqfxqAP6tjIO5QqNuyrg0H6XyqK1ojpwIQlctdOUj7Y2cQ84Jm4qWwdW0N98uUb+BUpnBXOJe+bf74xMtMU6nsAMtQo6yxtKIhl+lHsyMjsdqAxD3JGLFcKGvU6x5jmZbd5Pzj37SwC18ukjfafRPPI0wixRxlgzlk8QbkOtQA==udWI-----END PGP SIGNATURE-----
+-----END PGP SIGNATURE-----",Y
+Prophet Daniel (prophetdaniel),604B9479,https://raw.githubusercontent.com/ethereumproject/volunteer/master/Volunteer-Public-Keys/Daniel%20Kaminski%20de%20Souza%20(Prophet%20Daniel)%20%3Cdani_kase%40yahoo.com.br%3E,0x95D80084D4Fc2CB2063B765676fb328930935e5B,"-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+0x95D80084D4Fc2CB2063B765676fb328930935e5B
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJXziovAAoJEAUw+AZgS5R5vYQH/0wnji2mGiJfrIRRQ6jcZYug
++DdQ450StH4XVc6CKb4bWad9X2ZP+7hWoHd90/aKmJ2rccJVUioWQubHYf6qTBQ5
+rbQJmt14hDELui99o20p0mo9NFiqGYt8uySLFsyWo1deWfUbTI+ED0r0TxN1Jp30
+vblKD0GG3V8KJvS7NdFamUuSwn6tfFu/kkpmAJlaqEwJ5CL3vKKGtuzITiglbuN2
+D+drMSZq6038M+/PxsZ19O5qk//64tzZq1iQcdmPpS87GTBnVF0Ej9hgWEBKcUUX
+I32MbshZbSXiEawE36o2VRsF6cqvsaQs8M9Sg0nlTdV+yyhiCHykML/9TdaEfQE=
+=0F84
+-----END PGP SIGNATURE-----",Y
