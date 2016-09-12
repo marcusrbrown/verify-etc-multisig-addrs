@@ -98,6 +98,6 @@ fs.createReadStream('./multisig-addresses.csv')
     }
   })
   .on('error', err => {
-    console.error(`${err}\nAborting.`);
+    console.error(`Error: ${err.message}\nAborting.`);
     process.exit(255);
   });
