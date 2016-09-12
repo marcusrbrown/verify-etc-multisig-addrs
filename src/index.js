@@ -59,7 +59,7 @@ const validateRow = (row, next) => {
         next(new Error(`Message from '${name}' is not signed`));
       } else {
         row.message = message;
-        next(null, address === message);
+        next(null, message.match(address));
       }
     }
   });
