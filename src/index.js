@@ -58,11 +58,8 @@ const validateRow = (row, next) => {
       if (!literal.get_data_signer()) {
         next(new Error(`Message from '${name}' is not signed`));
       } else {
-        if (message.match(address)) {
-          next(null, true);
-        } else {
-          next(null, false);
-        }
+        row.message = message;
+        next(null, message.match(address));
       }
     }
   });
